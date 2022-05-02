@@ -99,7 +99,7 @@ h1, .contenido_servicios{
 /* INICIA LOS ESTILOS PARA EL PIE DE PAGINA */
 footer{
     
-    background-color: #FFF;
+    
     background: rgba(242, 239, 239, 0.6);
     border-bottom: 5px solid #fff;
     display: flex;
