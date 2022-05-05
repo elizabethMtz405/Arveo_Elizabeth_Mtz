@@ -1,0 +1,42 @@
+
+.contenido
+, .contenedor_video
+, .contenido_producto{    
+    background: $fondoTarjetas;
+    border-radius:  20px;
+}
+
+.contenedor_video{   
+    margin-top: 60px;
+}
+
+main{
+    div{
+        h1{
+            color: $colorBlanco;
+        }
+        .descripcion
+        , .contenido_conocenos
+        , .formulario{
+            color: $colorBlanco;
+        }
+    }
+}
+section{
+    div{
+        h4{    
+            text-decoration: underline;
+            padding-bottom: 15px;      
+        }
+    }
+}
+
+.contenido, 
+.contenedor_video, 
+.contenido_conocenos, 
+.contenido_producto{
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;    
+}

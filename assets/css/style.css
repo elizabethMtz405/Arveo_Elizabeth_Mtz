@@ -1,110 +1,101 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald&family=Roboto&display=swap');
-
-*{
-    margin: 0;
-    padding: 0%;
-}
-
-.fondo{     
-    background-image: url(../img/fondo_arveo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-nav ul li a{    
-    line-height: 70px; 
-    text-decoration: none;
-    font-size: 19px;
-    font-weight: bold;
-    text-transform: uppercase;
+nav ul li a {
+  line-height: 70px;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 nav ul li a:hover {
-    background: rgba(0,0,0,0.7);
-    border-radius: 6px;
-  
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
 }
 
-.contenido, .contenedor_video, .contenido_producto{    
-    background: rgba(210, 205, 205, 0.7);
-    border-radius:  20px;
+* {
+  margin: 0;
+  padding: 0%;
 }
 
-.contenedor_video{   
-    margin-top: 60px;
+body {
+  background-image: url(../img/fondo_arveo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h4{    
-    text-decoration: underline;
-    padding-bottom: 15px;      
-}
-
-ul li {
-    list-style: none;
-}
-
-@media(max-width:1200px){
-    .ocultarSm{
-        display: none;
-    }
-}
-h1, .contenido_servicios{
-    color: white;    
-}
-.contenido_conocenos{
-    color:white;
-    margin-bottom: 40px;
-    padding: 20px;
-}
-.contenido, 
-.contenedor_video, 
-.contenido_conocenos, 
-.contenido_producto{
-    font-family: 'Dela Gothic One', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;    
-}
 /* estilos de formulario contactos */
-.formulario{    
-    color: white;
+.formulario div {
+  background: #222222;
+  margin: 10px,20px;
+  padding: 25px;
 }
 
-.formulario div{
-    background: #222222;
-    margin: 10px,20px;
-    padding: 25px;
+.formulario button, .formulario textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: 0;
+  color: white;
+  border-bottom: 1px solid #B70E21;
 }
-.formulario button,
-.formulario textarea
-{
-    width: 100%; 
-    border: none;
-    background: none;
-    outline: 0;
-    color: white;
-    border-bottom: 1px solid #d63031;    
+
+.formulario button {
+  height: 35px;
+  background: #B70E21;
+  text-transform: uppercase;
 }
-.formulario button{
-    height: 35px;
-    background: #B70E21;
-    border: 0;
-    text-transform: uppercase;
-    
-}
-.ordenar{
-    padding-right: 120px;
+
+.formulario .ordenar {
+  padding-right: 120px;
 }
 
 /* INICIA LOS ESTILOS PARA EL PIE DE PAGINA */
-footer{
-    
-    background: rgba(242, 239, 239, 0.6);
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding: 10PX;
-
+footer {
+  background: rgba(242, 239, 239, 0.6);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10PX;
 }
+
+.contenido
+, .contenedor_video
+, .contenido_producto {
+  background: rgba(242, 239, 239, 0.6);
+  border-radius: 20px;
+}
+
+.contenedor_video {
+  margin-top: 60px;
+}
+
+main div h1 {
+  color: white;
+}
+
+main div .descripcion
+, main div .contenido_conocenos
+, main div .formulario {
+  color: white;
+}
+
+section div h4 {
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+
+.contenido,
+.contenedor_video,
+.contenido_conocenos,
+.contenido_producto {
+  font-family: 'Dela Gothic One', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .ocultarSm {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
