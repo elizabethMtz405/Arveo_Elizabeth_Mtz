@@ -16,8 +16,20 @@ nav ul li a:hover {
   padding: 0%;
 }
 
-body {
+.fondo_Inicio {
   background-image: url(../img/fondo_arveo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondo_Conocenos {
+  background-image: url(../img/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondo_Productos {
+  background-image: url(../img/GE-fondo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -52,7 +64,7 @@ body {
 footer {
   background: rgba(242, 239, 239, 0.6);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
   padding: 10PX;
 }
@@ -62,35 +74,51 @@ footer {
 , .contenido_producto {
   background: rgba(242, 239, 239, 0.6);
   border-radius: 20px;
+  margin: 20px;
 }
 
 .contenedor_video {
   margin-top: 60px;
 }
 
-main div h1 {
-  color: white;
-}
-
 main div .descripcion
-, main div .contenido_conocenos
 , main div .formulario {
   color: white;
 }
 
-section div h4 {
+.fondo_Contenido div h3 {
   text-decoration: underline;
   padding-bottom: 15px;
 }
 
 .contenido,
-.contenedor_video,
-.contenido_conocenos,
 .contenido_producto {
   font-family: 'Dela Gothic One', cursive;
   font-family: 'Oswald', sans-serif;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+}
+
+.product_inicio {
+  background-color: #161416d0;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.product_inicio div {
+  text-align: center;
+}
+
+.product_inicio div h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.product_inicio div p {
+  padding: 15px;
+  color: #f3f2fcd5;
 }
 
 @media (max-width: 1200px) {

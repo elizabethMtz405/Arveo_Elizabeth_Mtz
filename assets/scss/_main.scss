@@ -4,6 +4,7 @@
 , .contenido_producto{    
     background: $fondoTarjetas;
     border-radius:  20px;
+    margin: 20px;
 }
 
 .contenedor_video{   
@@ -11,29 +12,24 @@
 }
 
 main{
-    div{
-        h1{
-            color: $colorBlanco;
-        }
+    div{      
         .descripcion
-        , .contenido_conocenos
         , .formulario{
             color: $colorBlanco;
         }
     }
 }
-section{
+.fondo_Contenido{
     div{
-        h4{    
+        h3{    
             text-decoration: underline;
             padding-bottom: 15px;      
         }
     }
 }
 
+
 .contenido, 
-.contenedor_video, 
-.contenido_conocenos, 
 .contenido_producto{
     font-family: 'Dela Gothic One', cursive;
     font-family: 'Oswald', sans-serif;
@@ -43,5 +39,22 @@ section{
 
 
 .product_inicio{
-    background-color: #161416;
+    background-color: $colorNegro;
+    color: $colorBlanco;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    div{
+        text-align: center;
+     
+        h2{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            padding: 15px;
+            color: #f3f2fcd5;
+        }
+        
+    }
 }
